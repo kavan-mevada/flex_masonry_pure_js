@@ -1,5 +1,5 @@
-flex_masonry = function () {
-  var element = document.querySelector(".masonry");
+flex_masonry = function (flex_ele) {
+  var element = document.querySelector(flex_ele);
   var gutter_h = 20;
   //var gutter_v = 20;
 
@@ -60,7 +60,7 @@ flex_masonry = function () {
  		var width_e = elem.offsetWidth;
  		var parentWidth = elem.parentElement.offsetWidth;
 
-    var num = Math.floor(parentWidth / (width_e)); // Here +(gutter_v/2)
+    var num = Math.floor((parentWidth+1) / (width_e)); // Here +(gutter_v/2)
     var gutter_v = (parentWidth-(width_e*num))/(num+1);
     console.log(gutter_v);
  		return {
