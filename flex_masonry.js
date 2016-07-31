@@ -1,3 +1,9 @@
+/*
+*
+* This plugin is made by Kavan Mevada
+* All rights reserved to creator/developer.
+*
+*/
 flex_masonry = function (flex_ele) {
   var element = document.querySelector(flex_ele);
   var gutter_h = 20;
