@@ -3,7 +3,7 @@ Responsive Flexible Masonry pure javascript
 
 
 # CSS Style
-
+```
 .grid {
   width: 80%;
   position: relative; /* Nessesory */
@@ -14,9 +14,10 @@ Responsive Flexible Masonry pure javascript
   width: 240px;           /* This is the place you can change with in % or px */
   transition: all 0.5s;   /* (Optional) for animations */
 }
+```
 
 # HTML
-
+```
 <div class="grid masonry"> <!-- masonry class optional but relate with below flex_masonry(".masonry") -->
   <div>Element_1</div>
   <div>Element_2</div>
@@ -26,14 +27,15 @@ Responsive Flexible Masonry pure javascript
   <div>Element_6</div>
   <div>Element_7</div>
 </div>
+```
 
 # JavaScript
-
+```
 <script src="flex_masonry.js"></script>
 <script>
 flex_masonry(".masonry"); 
 </script>
-
+```
 
 Features:
 
