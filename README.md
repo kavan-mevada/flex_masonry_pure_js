@@ -18,8 +18,8 @@ Responsive Flexible Masonry pure javascript
 
 # HTML
 ```
-<div class="grid masonry"> <!-- masonry class optional but relate with below flex_masonry(".masonry") -->
-  <div>Element_1</div>
+<div class="grid masonry"> 	<!-- masonry class optional                     -->
+  <div>Element_1</div>		<!-- relate with below flex_masonry(".masonry") -->
   <div>Element_2</div>
   <div>Element_3</div>
   <div>Element_4</div>
