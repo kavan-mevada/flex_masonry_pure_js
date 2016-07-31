@@ -27,7 +27,8 @@ div {
 }
 
 .grid > div {
-  width: 25%;
+  width: 240px;
+  transition: all 0.5s;
 }
 
 .grid-item--a { height:  80px;background-color:yellow;}
@@ -58,15 +59,10 @@ div {
   <div class="grid-item grid-item--c">14</div>
   <div class="grid-item grid-item--b">15</div>
   <div class="grid-item grid-item--a">16</div>
-  <div class="grid-item grid-item--c">17</div>
-  <div class="grid-item grid-item--a">18</div>
-  <div class="grid-item grid-item--a">19</div>
-  <div class="grid-item grid-item--b">20</div>
-  <div class="grid-item grid-item--c">21</div>
 </div>
 <script src="flex_masonry.js"></script>
 <script>
-flex_masonry();
+flex_masonry(".masonry");
 </script>
 </body>
 </html>
