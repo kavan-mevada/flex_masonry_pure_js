@@ -19,6 +19,20 @@ flex_masonry = function (flex_ele) {
       var child_e = new Array();
 
       var child_e = document.querySelectorAll(".masonry")[0].children;
+      
+      //Converting HTMLCollection to array
+      var child_ee = [].slice.call(kk);
+
+      //Remove elements from arry which are display:hidden;
+      var k = 0;
+      for (var i = 0; i < child_ee.length; i++) {
+        if (child_ee[i].style.display != "none") {
+          //child_e.splice(i, 1);
+          child_e[k] = child_ee[i]
+          k++;
+        }
+      }
+      
       var childInfo = childElementInfo(child_e[0]);
       var width = childInfo['width'];
       //console.log(width);
